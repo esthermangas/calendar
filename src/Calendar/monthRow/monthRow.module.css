@@ -1,0 +1,13 @@
+.bodyRow {
+    display: flex;
+    height: calc(95% / 6);
+}
+
+.bodyRow > div:nth-child(1){
+    border-left: 1px solid #848484;
+}
+
+.bodyRow > div:nth-child(n) {
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+}

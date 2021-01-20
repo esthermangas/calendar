@@ -1,0 +1,61 @@
+.root {
+    width: 95%;
+    height: 95%;
+}
+
+.preContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.monthName {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.icon:hover{
+    background-color: #dcedf2;
+    transition-duration: 200ms;
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5%;
+    background-color: #74a3b6;
+}
+
+.container > div:nth-child(1) {
+     border-left: 1px solid #848484;
+ }
+
+.container > div:nth-child(n) {
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+    border-top: 1px solid #848484;
+}
+
+.titleMonth{
+    cursor: pointer;
+}
+
+.select{
+    width: 25%;
+}
+
+.dayHeader{
+    width: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    height: 95%;
+}
