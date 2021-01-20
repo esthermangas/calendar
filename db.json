@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "title": "Comprar",
+      "description": "Al Consum a por los Golden Graham",
+      "startDate": "2020-12-07T09:30",
+      "endDate": "2020-12-07T12:00",
+      "month": 11,
+      "year": 2020,
+      "day": 7
+    },
+    {
+      "title": "Examen",
+      "description": "Examen de biologia",
+      "startDate": "2020-12-10T10:00",
+      "endDate": "2020-12-10T11:00",
+      "year": 2020,
+      "month": 11,
+      "day": 10,
+      "id": 1
+    },
+    {
+      "title": "Casa Rural",
+      "description": "Ir a la casa rural",
+      "startDate": "2020-12-24T17:00",
+      "endDate": "2020-12-27T19:00",
+      "year": 2020,
+      "month": 11,
+      "day": 24,
+      "id": 2
+    },
+    {
+      "title": "Ir al Veterinario",
+      "description": "El perro vomita",
+      "startDate": "2021-01-21T16:00",
+      "endDate": "2021-01-21T17:00",
+      "year": 2021,
+      "month": 0,
+      "day": 21,
+      "id": 3
+    }
+  ]
+}
